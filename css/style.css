@@ -1,0 +1,217 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+
+/***************************
+  photographers.com.ng v1.0
+  2014, Digital Mavericks
+****************************/
+
+/** Body  **/
+body{
+    background-color: #f7f7f7;
+    font-family: 'PT sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #393c3d;
+    padding-top: 60px;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: 'ubuntu', 'montserrat',"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.panel-primary{
+    border-color: #48c0f4;
+}
+.panel-primary .panel-heading{
+    background-color: #48c0f4;
+}
+.panel-footer{
+    background-color: #ffffff;
+    border-top: 1px solid#bdc3c7;
+}
+.colored-text{
+    color: #48c0f4;
+}
+a{
+    color: #48c0f4;
+}
+/** End Body **/
+
+/** Navbar **/
+.navbar-white{
+    background-color: #ffffff;
+    padding: 10px 25px 0 25px;
+    border-bottom: 5px solid #bdc3c7;
+}
+.navbar-brand{
+    height: 60px;
+}
+.icon-bar{
+    background-color: #0f346b;
+}
+.nav>li>a{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 15px;
+}
+.nav>li>a:hover{
+    background-color: #ffffff;
+    color: #0f346b;
+}
+.blue-btn a, li.blue-btn>a:hover{
+   background-color: #48c0f4;
+    color: #ffffff;
+    line-height: 1.4;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+    border: 1px solid #48c0f4;
+    cursor: pointer;
+    height: 40px;
+}
+/** End Navbar **/
+
+/*** Footer ***/
+#footer{
+    margin-top: 5px;
+    border-top: 2px solid #bdc3c7;
+    color: #48c0f4;
+    height: 40px;
+}
+#footer #footer-wrap{
+    padding: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+.icon-circle{
+     display: inline-block;
+     color: #48c0f4;
+     padding: 10px 0 0 30px;
+ }
+.social{
+    margin-bottom: 5px;
+}
+/*** End footer ***/
+
+/** Index Page **/
+.hero-unit{
+    background: url("../img/index-bg.jpg");
+    min-height: 600px;
+    background-size: cover;
+    color: #ffffff;
+}
+.tagline{
+    padding-top: 20%;
+    font-size: 48px;
+    font-weight: 700;
+    color: #48c0f4;
+}
+.search-box{
+    background-color: #48c0f4 !important;
+    padding-left: 5%;
+}
+.search-box .form-control{
+    display: block;
+    width: 100%;
+}
+.search-box .form-group{
+    padding-right: 1%;
+}
+.search-box label{
+    display: block;
+}
+.search-box .search-btn{
+    margin-top: 25px;
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #0f346b;
+}
+
+#index-copy{
+    margin: 20px 0;
+}
+.copy{
+    margin: 15px 0;
+}
+/** End Index Page **/
+
+/** About Us Page **/
+#about-us .hero{
+    min-height: 500px;
+    background-position: 50% 0;
+    background: url("../img/about-us-bg.jpg");
+    background-size: cover;
+    width: 100%;
+}
+.content{
+    margin-bottom: 25px;
+}
+/** End About Us Page **/
+
+/*** How It Works Page* **/
+#how-it-works{
+    margin: 30px;
+}
+.help-content-box{
+    border: 2px solid #bdc3c7;
+    padding: 40px;
+    border-radius: 2px;
+}
+.create{
+    padding: 0 0 10px 0;
+    font-weight: 700;
+}
+.help-content-text{
+    padding-top: 45px;
+}
+/*** End How It Works Page* **/
+
+/*** Login Page, Register page ***/
+#login{
+    min-height: 500px;
+}
+.login-box, .signup-box, .upload-box{
+    margin-top: 8%;
+}
+/*** End Login Page ***/
+
+/*** Search Result (Browse) Page ***/
+.search-result-logo{
+    max-width: 100px;
+}
+.search-result-text-box{
+    border-right: 1px solid #48c0f4;
+    padding-top: 20px;
+}
+ul.sample-img-box{
+    padding-top: 5%;
+    list-style: none;
+}
+/*** End Search Result (Browse) Page ***/
+
+/*** Profile Page **/
+.profile-bg{
+   background: url("../img/profile-bg.jpg");
+    background-size: cover;
+    max-height: 550px;
+    min-height: 550px;
+    color: #ffffff;
+}
+.profile-logo-box{
+    background-color: #ffffff;
+    margin-top: 40%;
+}
+.profile-logo{
+    max-width: 200px;
+}
+.profile-logo-text{
+    margin-top: 50%;
+}
+/*** End Profile Page ***/
+
+/*** Dashboard Page ***/
+.fixed-cell{
+    max-width: 120px;
+}
+/*** End Dashboard Page ***/
